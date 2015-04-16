@@ -1,6 +1,5 @@
 package com.codequalified
 
-object Quiz extends App{
-
+object Main extends App{
   println("app bootstrap here")
 }

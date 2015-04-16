@@ -1,10 +1,11 @@
 scalaVersion := "2.11.6"
 
-name := "codequalified-quiz"
+name := "quiz"
 
 version := "1"
 
-resolvers ++= Seq("spray repo" at "http://repo.spray.io")
+assemblyJarName in assembly := "quiz.jar"
+
 
 libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "2.4" % "test"
